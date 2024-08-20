@@ -2,7 +2,7 @@
 
 This repository is a series of notebooks on the study of gaussian process regression (GPR).
 
-<br>
+## Usage
 
 The following notebooks contain implementations done almost entirely from scratch:
 * **1_GPR.ipynb**. This notebook attempts to provide an intuitive introduction to GPR, following chapter 2 in _Gaussian Process for Machine Learning_ by Rasmussen et. al.
@@ -21,3 +21,8 @@ The following notebooks mostly contain reading notes:
 
 These notebooks transition the work done in notebooks 1 through 5 to coding implementations with packages like GPy:
 * **8_BMS-Package.ipynb** Same as 4., but implemented with GPy.
+
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
