@@ -14,8 +14,6 @@ Implementation: 1D observation data and $d$ hyperparameters.
 * **4_BayesianMS-2Hyperparameters.ipynb**. Same as 3., but with $d$ hyperparameters.
 * **5_MultidimensionalGPR.ipynb**. Same as 2., but in $N$ dimensions and $d$ hyperparameters.
 
-<br>
-
 ### Notes (no code)
 
 The following notebooks contain reading notes and little to no code:
@@ -23,8 +21,6 @@ The following notebooks contain reading notes and little to no code:
 * **7_CovarianceFunctions.ipynb** Information on different covariance functions used for the kernel in a GP.
 * **10_HMC.ipynb** Since I use HMC sampling of the hyperparameter posterior, this notebook provides background on HMC.
 * **14_InverseProb.ipynb** Notes are from _Parameter Estimation and Inverse Problems_ 3rd ed by Aster et al. Introduces the inverse problem and linear regression.
-
-<br>
 
 ### GPR using GPy package
 
@@ -41,4 +37,5 @@ These notebooks transition the work done in notebooks 1 through 5 to coding impl
 
 
 [MIT](https://choosealicense.com/licenses/mit/)
+
 
