@@ -1,6 +1,6 @@
-# Tutorials on Gaussian Process Regression
+# Studies on Bayesian Gaussian Process Regression
 
-This repository is a series of notebooks I made on the study of gaussian process regression (GPR). It's intended for educational purposes.
+This repository is a series of notebooks I made on my study of Bayesian approaches to gaussian process regression (GPR). It's intended for educational purposes.
 
 ## Usage
 
@@ -30,7 +30,7 @@ The following notebooks contain reading notes and little to no code:
 
 These notebooks transition the work done in notebooks 1 through 5 to coding implementations with the package GPy:
 * **8_BMS-Package.ipynb** Same as 4., but implemented with GPy. DO NOT USE THIS ONE. It was simply to introduce the package, but improvements on its functionality are done in the 9th notebook.
-* **9_BMS-1D.ipynb** This program builds 1D GPRs with gradient-based and Bayesian-based optimization.
+* **9_BMS-1D.ipynb** This program builds 1D GPRs with gradient-based and Bayesian-based optimization. Demonstrates adaptive sampling.
 * **11_BMS-2D.ipynb** Same as notebook 9, except in 2D (code without graphics works for higher dimensions). Includes variations of the rbf kernel such as ADR and off-diagonal terms of the lengthscale.
 * **12_MultiRespGP-1D.ipynb** Introduces _Latin Hypercube Sampling_ and 1-D multi-output GPRs via _ICM_.
 * **13_MultiRespGP-2D.ipynb** Study of multi-output GPRs of 2D observational data. Introduces _IMC_ and _LMC_. Code also works for higher dimensional data (without graphics).
@@ -41,3 +41,4 @@ These notebooks transition the work done in notebooks 1 through 5 to coding impl
 
 
 [MIT](https://choosealicense.com/licenses/mit/)
+
